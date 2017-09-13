@@ -24,11 +24,11 @@ module.exports = {
     resolve: {
         extensions: [ '.ts', '.js', '.json', '.html' ]
     },
-    
+
     plugins: [
         new webpack.ContextReplacementPlugin(
-          // The (\\|\/) piece accounts for path separators in *nix and Windows
-          path.resolve(__dirname, '../src')
+          //account for path separators in Windows
+          path.resolve(__dirname, './src')
         ),
         new HtmlWebpackPlugin({
           template: './src/index.html'
