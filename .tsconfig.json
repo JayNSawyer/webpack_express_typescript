@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+       // "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es5",
+        "lib": [ "es2015", "dom" ],
+        "types": [ "node" ],
+        "typeRoots": [ "./node_modules/@types"]
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ],
+    "awesomeTypescriptLoaderOptions": {
+        "forkChecker": true,
+        "useWebpackText": true
+    }
+}
