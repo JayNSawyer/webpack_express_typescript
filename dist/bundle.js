@@ -85,6 +85,7 @@ $(function () {
         event.preventDefault();
         var form = $(this);
         var articleData = form.serialize();
+        //replace with HTTP Module after article data is serialized!
         $.ajax({
             type: 'POST', url: '/articles', data: articleData
         }).done(function (article) {
