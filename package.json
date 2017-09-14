@@ -4,11 +4,13 @@
         "start": "concurrently \"webpack --watch --colors\" \"nodemon app.js\""
     },
     "dependencies": {
+        "@types/jquery": "^3.2.12",
         "@types/lodash": "^4.14.74",
         "@types/node": "^8.0.28",
         "body-parser": "^1.18.1",
         "debug": "^3.0.1",
         "express": "^4.15.4",
+        "jquery": "^3.2.1",
         "lodash": "^4.17.4",
         "morgan": "^1.8.2",
         "path": "^0.12.7"
